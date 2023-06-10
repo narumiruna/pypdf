@@ -7,11 +7,7 @@
 Before you can use `PyPDF`, ensure you have the required dependencies installed. You can install them by running the following commands in your terminal:
 
 ```bash
-pip install langchain
-pip install pypdf
-pip install chromadb
-pip install openai
-pip install tiktoken
+pip install .
 ```
 
 ## Setting Up Your Environment
@@ -33,6 +29,11 @@ curl -o paper.pdf https://bitcoin.org/bitcoin.pdf
 ```
 
 Once you've downloaded the PDF, you're ready to start using `PyPDF`!
+
+
+```bash
+readpdf bitcoin.pdf
+```
 
 ---
 
